@@ -40,6 +40,7 @@ public static void main (String[] args) {
 		
 		if (session != null) {
 			session.close();
+			System.out.println(x);
 		}
 		
 	}
